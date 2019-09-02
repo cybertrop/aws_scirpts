@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Use the AWS CLI to list out all bucket ACLs
 
 file="$1"
 lineknt=0
