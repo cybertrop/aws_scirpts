@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script parses an unziped QRadar CSV file for CLoudTrail API calls, their assocaited AWS accounts
+# This script parses an unziped QRadar CSV file for CloudTrail API calls, their assocaited AWS accounts
 # and the time the API Calls occurred. Please keep in mind this is parsed from the actual CloudTrail Payload. 
 # Please make sure to include the Payload field in your QRadar query.
 
