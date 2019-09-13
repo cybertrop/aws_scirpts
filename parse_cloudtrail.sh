@@ -3,8 +3,6 @@
 # and the time the API Calls occurred. Please keep in mind this is parsed from the actual CloudTrail Payload. 
 # Please make sure to include the Payload field in your QRadar query.
 
- 
-
 cat <filename>  # This is going to be the file you download
 | tr [:upper:] [:lower:]
 | grep -Eo "leef.{75}|creationdate=.{19}|accountid=.{12}"
